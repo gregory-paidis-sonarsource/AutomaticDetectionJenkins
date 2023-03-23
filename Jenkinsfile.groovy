@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-github-repo>.git'
+                git 'https://github.com/gregory-paidis-sonarsource/AutomaticDetectionJenkins.git'
             }
         }
         stage('Print Environment Variables') {
