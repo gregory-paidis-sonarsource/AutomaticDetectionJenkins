@@ -10,6 +10,7 @@ pipeline {
         stage('Print Environment Variables') {
             steps {
                 sh 'printenv'
+                
             }
         }
     }
